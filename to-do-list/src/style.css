@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.App{
+    padding: 50px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-bottom: 50px;
+}
+form label{
+    font-size: 20px;
+}
+form input , 
+button
+{
+    outline: 0;
+    padding: 5px;
+    background: hsl(200, 100%, 50%, 0.1);
+    border: 1px solid hsl(200, 100%, 50%);
+    color: hsl(200, 100%, 50%);
+    font-size: 20px;
+}
+form button:hover,
+button:focus-visible {
+  background: hsl(200, 100%, 50%, 0.2);
+}
+
+.btn-danger {
+  background: hsl(0, 100%, 40%, 0.1);
+  border: 1px solid hsl(0, 100%, 40%);
+  color: hsl(0, 100%, 40%);
+}
+
+.btn-danger:hover,
+.btn-danger:focus-visible {
+  background: hsl(0, 100%, 40%, 0.2);
+}
+.Todo-List{
+    border: 1px solid white;
+}
+ul li{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
+}
